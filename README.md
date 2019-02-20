@@ -1,8 +1,10 @@
-# reference: Tabet, Ricardos et al. “Fragile X Mental Retardation Protein (FMRP) controls diacylglycerol
+# reference
+Tabet, Ricardos et al. “Fragile X Mental Retardation Protein (FMRP) controls diacylglycerol
 kinase activity in neurons” Proceedings of the National Academy of Sciences of the United
 States of America vol. 113,26 (2016): E3619-28.
 
-# Intro: The Fragile X Mental Retardation Protein (FMRP), and RNA binding protein, has been associated with
+# Intro
+The Fragile X Mental Retardation Protein (FMRP), and RNA binding protein, has been associated with
 many neurological conditions including, Fragile X syndrome, intellectual disabilities, Parkinson’s disease, as well
 as autism spectrum disorder [1]. As it is the most prevalent inheritable cause for intellectual disability and
 autism, it merits investigation of the mechanism through which FMRP regulates neural circuit formation. While
@@ -14,9 +16,11 @@ interacting with FRMP in post-synaptic densities. The authors used a CLIP (cross
 approach to find what mRNAs are associating with the FMRP protein in dissociated neuronal cultures.
 Enrichment for mRNA from pull-downs were established through microarray analysis
 
-# Figure link:  https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=4932937_pnas.1522631113fig01.jpg
+# Figure link
+https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=4932937_pnas.1522631113fig01.jpg
 
-# Figure Discription:FMRP mostly targets Dgkκ mRNA in murine cortical
+# Figure Discription
+FMRP mostly targets Dgkκ mRNA in murine cortical
 neurons. (A) Volcano plot representation of the
 FMRP CLIP-microarray results. The x axis is log2 of
 fold change of average intensity for each individual
@@ -30,8 +34,10 @@ with high P value or previously proposed as targets
 is given, and the arbitrary 0.05 P value thresholds
 with corresponding number of genes are shown. 
 
-# Project Outline: (Goal is to create a tool to analyze microarray data reproducible enough to look at microarray
-data of other RNA binding proteins in future)
+# Project Outline
+_Goal is to create a tool to analyze microarray data reproducible enough to look at microarray
+data of other RNA binding proteins in future_
+
 1) Get Microarray data from GSE51649
 2) Combine Microarray replicate values by condition (WT:INPUT, WT:IP, KO:INPUT, KO:IP) Unix (sed or
 awk, maybe perl) intermediate output file for QC
