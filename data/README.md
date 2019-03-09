@@ -7,7 +7,7 @@ ID number followed by wether the sample if from the Input sample (baseline) or f
 ### Data downloaded 2.23.19 from GSE51649
 link to Geo DataSets : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51649
 
-#CEL file data info
+###CEL file data info
 GSM1250103	Input_WT1
 
 GSM1250104	Input_WT2
