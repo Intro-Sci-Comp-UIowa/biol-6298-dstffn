@@ -1,4 +1,4 @@
-# reference
+# Reference
 Tabet, Ricardos et al. “Fragile X Mental Retardation Protein (FMRP) controls diacylglycerol
 kinase activity in neurons” Proceedings of the National Academy of Sciences of the United
 States of America vol. 113,26 (2016): E3619-28.
