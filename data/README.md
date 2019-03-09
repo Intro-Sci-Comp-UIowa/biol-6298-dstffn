@@ -1,6 +1,11 @@
+# Data Aquisition
 ### This folder contains the CEL files that assocaited with the microarray data from tabet et al. 2015
 
+File naming scheme: 
+ID number followed by wether the sample if from the Input sample (baseline) or from the expreimental (CLIP). These samples are further organized by the sameple type and number, where (Wt) indicates samples collected from the control group and KO indicates samples collecterd from the mutant line.
+
 ### Data downloaded 2.23.19 from GSE51649
+link to Geo DataSets : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51649
 
 #CEL file data info 
 GSM1250103	Input_WT1
