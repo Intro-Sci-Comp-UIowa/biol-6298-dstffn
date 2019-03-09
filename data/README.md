@@ -1,7 +1,7 @@
 # Data Aquisition
 
 Data for this COSMOS 2019 project was gathered from, Tabet ey al., 2016 (Gene Expression Omnibus Sereies GSE51649).
-This data was generated in order to establish the role of FMRP portein in translocation of neuronal mRNAs synaptic structures. In this study mRNAs were collected from FMRP using cross-linking immunoprecipitation and microarray (CLIP-microarray). RNA was collected from 10 seperate primary cortical cultures (5 from control cultures, and another 5 from FRM1-KO cultures, each f which were used to create an CLIP and INPUT sample for microarray analysis).
+This data was generated in order to establish the role of FMRP portein in translocation of neuronal mRNAs synaptic structures. In this study mRNAs were collected from FMRP using cross-linking immunoprecipitation and microarray (CLIP-microarray). RNA was collected from 10 seperate primary cortical cultures (5 from control cultures, and another 5 from FRM1-KO cultures, each of which were used to create an CLIP and INPUT sample for microarray analysis).
 
 ### This folder contains the CEL files that assocaited with the microarray data from tabet et al. 2015
 
