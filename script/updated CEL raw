@@ -1,0 +1,33 @@
+source("http://www.bioconductor.org/biocLite.R")
+source("http://www.bioconductor.org/biocLite.R")
+biocLite("oligo")
+library("oligo")
+biocLite("mogene10stprobeset.db")
+celFiles = list.celfiles("C:/Users/David/Documents/COSMOS data", full.names = TRUE)
+affyRaw <-read.celfiles(celFiles)
+
+library("pd.mogene.1.0.st.v1")
+eset <- oligo::rma(affyRaw)
+
+write.exprs(eset, file="data.txt")
+
+
+# This assumes you already normalized the data, and the object "eset" has the data in it (from above)
+# Load annotation library
+biocLite("mogene20sttranscriptcluster.db")
+
+
+library("mogene20sttranscriptcluster.db")
+
+# Strategy is to create data frame objects and merge them together - put expression info into a data frame
+my_frame <- data.frame(exprs(eset))
+
+# Put annotation information in a data frame.  To get specific fields, use packageNameSYMBOL, where the caps part names the type of data you're after
+# To get a list of available annotation information, run the packagename with () at the end, i.e. mogene20sttranscriptcluster()
+Annot <- data.frame(ACCNUM=sapply(contents(mogene20sttranscriptclusterACCNUM), paste, collapse=", "), SYMBOL=sapply(contents(mogene20sttranscriptclusterSYMBOL), paste, collapse=", "), DESC=sapply(contents(mogene20sttranscriptclusterGENENAME), paste, collapse=", "))
+
+# Merge data frames together (like a database table join)
+all <- merge(Annot, my_frame, by.x=0, by.y=0, all=T)
+
+# Write out to a file:
+write.table(all,file="data.ann.txt",sep="\t")
