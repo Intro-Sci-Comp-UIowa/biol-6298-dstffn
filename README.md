@@ -17,7 +17,7 @@ approach to find what mRNAs are associating with the FMRP protein in dissociated
 Enrichment for mRNA from pull-downs were established through microarray analysis
 
 # Figure link
-![figure](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=4932937_pnas.1522631113fig01.jpg)
+[![figure](https://www.pnas.org/content/pnas/113/26/E3619/F1.large.jpg)](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=4932937_pnas.1522631113fig01.jpg)
 
 # Figure Discription
 FMRP mostly targets Dgkκ mRNA in murine cortical
