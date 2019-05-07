@@ -1,3 +1,7 @@
+# Errors when using RMarkdown 
+
+Sorry these scritps are not in Rmarkdown, as I keep getting errors when trying to convert to R markdown, I did my best to make sure they where easy to read and the comments were detailed 
+
 # Script files 
 This file contains the start of a importved code for the volcano plot that I will be reproducing for the COSMOS project. 
 
@@ -13,5 +17,3 @@ First try at creating a script to get an output CSV file for the volcano plot sc
 # CEL updated 
 Current code for the creating of the CSV files to pipe into the volcano plot script 
 
-
-Sorry these scritps are not in Rmarkdown, as I keep getting errors when trying to convert to R markdown, I did my best to make sure they where easy to read and the comments were detailed 
