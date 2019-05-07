@@ -1,6 +1,6 @@
 # Output 
 
-This file currently is where all my QC and rough anlysis data is going to be kept untill I get my R script up and running completely 
+This file currently is where all my QC and rough anlysis data is to be kept 
 
 ## data.csv:
 has the orininal output from my R srit[p to normalize, annotate, and analysze data from the original CEL data 
