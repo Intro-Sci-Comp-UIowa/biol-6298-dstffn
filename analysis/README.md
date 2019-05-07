@@ -1,0 +1,1 @@
+This File contains a CSV file in which all of my genes have been annoptated followed by their intensities for each sample which are labeled either WT or Expiremental, and kif theyr are the input or the IP
